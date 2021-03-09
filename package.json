@@ -1,0 +1,29 @@
+{
+	"name": "mr-mystery",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/seattleowl/mr-mystery.git"
+	},
+	"bugs": {
+		"url": "https://github.com/seattleowl/mr-mystery/issues"
+	},
+	"bin": {
+		"mrm": "src/index.js"
+	},
+	"homepage": "https://github.com/seattleowl/mr-mystery#readme",
+	"dependencies": {
+		"boxen": "^5.0.0",
+		"chalk": "^4.1.0",
+		"fs-extra": "^9.1.0",
+		"inquirer": "^8.0.0",
+		"yargs": "^16.2.0"
+	}
+}
