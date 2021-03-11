@@ -32,7 +32,7 @@ const cmd = yargs
 
 			console.log(`${chalk.underline.yellow("The game is afoot.")}\n`);
 
-			require("./actions/char.js").handler({ list: true }, characters);
+			require("./actions/list.js").handler(characters);
 		}
 	})
 	.command({

@@ -3,6 +3,8 @@ const { blue } = require("chalk");
 
 exports.command = "inspect <firstName> <lastName>";
 
+exports.describe = "Inspect a suspect.";
+
 exports.handler = async function (argv) {
 	const state = await getState();
 
