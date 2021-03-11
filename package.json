@@ -1,6 +1,6 @@
 {
 	"name": "mr-mystery",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"keywords": [],
 	"author": "",
@@ -23,7 +23,7 @@
 		"boxen": "^5.0.0",
 		"chalk": "^4.1.0",
 		"fs-extra": "^9.1.0",
-		"inquirer": "^8.0.0",
+		"string-length": "^4.0.1",
 		"yargs": "^16.2.0"
 	}
 }

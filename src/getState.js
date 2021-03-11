@@ -5,7 +5,7 @@ exports.ERR_NOT_JSON = -2;
 exports.ERR_BAD_JSON = -3;
 
 exports.getState = function () {
-	if (existsSync("./.mrmgame")) {
+	if (existsSync("./.mrm")) {
 		return new Promise((resolve) => {
 			readJSON("./.mrm")
 				.then((data) => {
